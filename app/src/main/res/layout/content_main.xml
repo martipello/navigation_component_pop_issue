@@ -10,12 +10,4 @@
   tools:showIn="@layout/activity_main">
 
 
-  <fragment
-    android:id="@+id/main_fragment"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:name="androidx.navigation.fragment.NavHostFragment"
-    app:defaultNavHost="true"
-    app:navGraph="@navigation/main_nav"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
